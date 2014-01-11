@@ -16,7 +16,7 @@ class API {
         $texts = $dom->getElementsByTagName('i');
 
         $results = [];
-        for ($n = 0, $num = count($strips); $n < $num; $n++) {
+        for ($n = 0; $n < $strips->length; $n++) {
             $results[$n] = array(
                 'title' => $strips->item($n)->nodeValue,
                 'link' => $links->item($n)->getAttribute('href'),
