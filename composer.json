@@ -1,0 +1,17 @@
+{
+    "name": "rfreebern/pokey-api",
+    "description": "An API to the Pokey search.",
+    "keywords": ["pokey", "penguin", "yellow5", "humor", "webcomic", "comic"],
+    "license": "CC0",
+    "authors": [
+        {
+            "name": "Ryan Freebern",
+            "email": "ryan@freebern.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Pokey": "src/"
+        }
+    }
+}
