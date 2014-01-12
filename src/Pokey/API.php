@@ -15,7 +15,7 @@ class API {
         $images = $dom->getElementsByTagName('img');
         $texts = $dom->getElementsByTagName('i');
 
-        $results = [];
+        $results = array();
         for ($n = 0; $n < $strips->length; $n++) {
             $results[$n] = array(
                 'title' => $strips->item($n)->nodeValue,
